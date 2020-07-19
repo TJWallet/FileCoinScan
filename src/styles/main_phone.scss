@@ -1,0 +1,204 @@
+.display-pc{
+  display: none !important;
+}
+
+.display-pc-and-pad{
+  display: none !important;
+}
+
+.display-pad-and-phone{
+  display: block !important;
+}
+
+.display-phone{
+  display: block !important;
+}
+
+
+/* ipfs start*/
+.ipfs-container {
+  background-color: rgba(57, 60, 149, 1);
+  color: #fff;
+  width: 100%;
+  margin: auto;
+  padding: 0;
+  margin: -50px 0;
+}
+
+.ipfs-container .content-wrapper {
+  text-align: center;
+  padding: 27px 0;
+  margin: auto;
+}
+
+.ipfs-container .content-wrapper {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 35px;
+}
+
+.ipfs-container .content-wrapper .filecoin-wrapper .logo{
+  text-align: left;
+  margin-left: 16px;
+}
+
+.ipfs-container .content-wrapper .filecoin-wrapper .logo img{
+  width: 100px;
+}
+
+.ipfs-container .content-wrapper .filecoin-wrapper .present{
+  background: url("/static/images/ipfs/filecoin_img.png") no-repeat left;
+  height: 250px;
+  text-align: left;
+  font-size: 22px;
+  margin-left: 16px;
+  background-size: cover;
+  margin-top: -50px;
+}
+
+.ipfs-container .content-wrapper .filecoin-wrapper .present h1{
+  width: 300px;
+  font-weight: 200;
+  padding-top: 120px;
+  line-height: 30px;
+}
+
+.ipfs-container .content-wrapper .item-title {
+  text-align: left;
+  width: calc(100% - 32px);
+  margin: auto;
+  padding-top: 5px;
+}
+
+.ipfs-container .content-wrapper .item-title h1 {
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: 8px;
+}
+
+.ipfs-container .content-wrapper .item-title h1 img{
+    width: 16px;
+    margin-right: 8px;
+}
+
+.ipfs-container .content-wrapper .general-wrapper {
+  width: calc(100% - 32px);
+  margin: auto;
+  background: rgba(33, 35, 84, 1);
+  border-radius: 16px;
+  margin-bottom: 16px;
+}
+
+.ipfs-container .content-wrapper .general-wrapper .general-title {
+  padding: 5vw 0;
+}
+
+.ipfs-container .content-wrapper .general-wrapper .general-title h2 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  padding-left: 16px;
+  border-left: 2px solid #fff;
+}
+
+.ipfs-container .content-wrapper .general-wrapper .other {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.ipfs-container .content-wrapper .general-wrapper .other div {
+  width: 30vw;
+  padding-bottom: 2vw;
+}
+
+.ipfs-container .content-wrapper .general-wrapper .other div p:last-child {
+  color: rgb(25, 170, 187);
+  padding: 6px 0;
+}
+
+.ipfs-container .content-wrapper .general-wrapper .ranging-table {
+  margin: auto;
+  padding-bottom: 16px;
+}
+
+.ipfs-container .content-wrapper .general-wrapper .ranging-more h3 {
+  font-size: 14px;
+  text-decoration: underline;
+  padding-bottom: 20px;
+  padding-top: 4px;
+  cursor: pointer;
+}
+
+.ipfs-container .content-wrapper .select-proven-power{
+  padding-bottom: 5vw;
+}
+
+.ipfs-container .content-wrapper .select-proven-power div {
+  width: 50vw;
+  display: flex;
+  font-size: 14px;
+  border-radius: 18px;
+  background-color: #1D1F4B;
+  font-weight: 600;
+  color: rgb(72, 88, 114);
+  margin: auto;
+}
+
+.ipfs-container .content-wrapper .select-proven-power div span {
+  flex: 1;
+  cursor: pointer;
+  padding: 2vw;
+}
+
+.ipfs-container .content-wrapper .select-proven-power div span.active {
+  color: #ffffff;
+}
+
+.ipfs-container .content-wrapper .ipfs-select-time {
+  padding-bottom: 7vw;
+  padding-top: 2vw;
+}
+
+.ipfs-container .content-wrapper .ipfs-select-time .ipfs-select-time-content {
+  display: flex;
+  -webkit-box-align: center;
+  width: calc(100% - 32px);
+  margin: auto;
+}
+
+.ipfs-container .content-wrapper .ipfs-select-time .ipfs-select-time-content span {
+  cursor: pointer;
+  line-height: 1.30208vw;
+  text-align: center;
+  color: rgb(72, 88, 114);
+  flex: 1;
+  border-bottom: 2px solid #1D1F4B;
+  padding-bottom: 5vw;
+}
+
+.ipfs-container .content-wrapper .ipfs-select-time .ipfs-select-time-content span.active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+.ipfs-container .content-wrapper .powered-footer{
+  line-height: 22px;
+}
+
+.ipfs-container .content-wrapper .powered-footer h1{
+  font-size: 12px;
+  color: rgba(200,204,235,1);
+}
+
+.ipfs-container .content-wrapper .powered-footer h1 a{
+  border-bottom: 1px solid rgb(200, 204, 235);
+  color: rgba(200,204,235,1);
+}
+
+
+/*ipfs end*/

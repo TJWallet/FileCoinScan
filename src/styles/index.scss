@@ -1,0 +1,13 @@
+@import './common_variables.scss';
+@import './reset.scss';
+@import './element-ui.scss';
+@import './mixin.scss';
+@import './transition.scss';
+@import './main_pc.scss';
+
+@media screen and (max-width:#{$screenLG}){
+  @import './main_pad.scss';
+}
+@media screen and (max-width:#{$screenMD}){
+  @import './main_phone.scss';
+}
